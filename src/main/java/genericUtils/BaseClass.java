@@ -29,13 +29,8 @@ public class BaseClass {
 	
 	@BeforeClass
 	public void configBC(){
-		ChromeOptions options=new ChromeOptions();
-		options.addArguments("--disable-notifications");
-		WebDriverManager.chromedriver().setup();
-		 driver=new ChromeDriver(options);
-		 driver.manage().window().maximize();
-		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		 driver.get("https://www.flipkart.com/");
+		System.out.println("Bc executed");
+		 
 	}
 	
 	@BeforeMethod
@@ -47,14 +42,14 @@ public class BaseClass {
 		 driver=new ChromeDriver(options);
 		 driver.manage().window().maximize();
 		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		 driver.get("https://www.amazon.in/");
+		 
 		
 	}
 	
 	@AfterMethod
 	public void configAM(){
 		System.out.println("Am executed");
-		driver.close();
+//		driver.close();
 		
 		
 		
