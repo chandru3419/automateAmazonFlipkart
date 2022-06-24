@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34807" started-at="2022-06-24T11:28:16Z" finished-at="2022-06-24T11:28:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34807" started-at="2022-06-24T11:28:16Z" finished-at="2022-06-24T11:28:50Z">
+      <class name="com.automation.amazonTest.AmazonFlipkart">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.automation.amazonTest.AmazonFlipkart@553f17c]" name="configBC" is-config="true" duration-ms="23849" started-at="2022-06-24T11:28:16Z" finished-at="2022-06-24T11:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.automation.amazonTest.AmazonFlipkart@553f17c]" name="configBM" is-config="true" duration-ms="6634" started-at="2022-06-24T11:28:40Z" finished-at="2022-06-24T11:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.automation.amazonTest.AmazonFlipkart@553f17c]" name="amazon" duration-ms="3815" started-at="2022-06-24T11:28:46Z" finished-at="2022-06-24T11:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.automation.amazonTest.AmazonFlipkart@553f17c]" name="configAM" is-config="true" duration-ms="456" started-at="2022-06-24T11:28:50Z" finished-at="2022-06-24T11:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.automation.amazonTest.AmazonFlipkart@553f17c]" name="configAC" is-config="true" duration-ms="0" started-at="2022-06-24T11:28:50Z" finished-at="2022-06-24T11:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.automation.amazonTest.AmazonFlipkart@553f17c]" name="configAS" is-config="true" duration-ms="0" started-at="2022-06-24T11:28:50Z" finished-at="2022-06-24T11:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.automation.amazonTest.AmazonFlipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
