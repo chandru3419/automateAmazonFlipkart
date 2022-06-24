@@ -26,6 +26,7 @@ public class BaseClass {
 		System.out.println("DB starts");
 
 	}
+	//
 	
 	@BeforeClass
 	public void configBC(){
